@@ -140,7 +140,8 @@
     <div class="details">
         <p> I am currently a Ph.D. candidate in CSE department of Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://sites.google.com/view/dyyeung/home?authuser=0" target="_blank">Prof. Dit-Yan Yeung</a>. 
         Previously, I was an undergraduate student majoring in Computer Science in Fudan University honored as the Outstanding Undergraduate of Shanghai (上海市优秀毕业生), supervised by <a href="https://yanweifu.github.io/" target="_blank">Prof. Yanwei Fu</a>. 
-        My research interests include Machine Learning and Artificial Intelligence, aiming at building generalizable AI systems from a data-centric perspective. Currently, I'm trying to answer, 1) <em>Does more data always result in better performance?</em> 2) <em>How to generate corner cases with generative models?</em> 3) <em>How to fix corner cases with minimum human intervention?</em>
+        My research focuses on Multi-modal Learning and Generative Models, aiming at building generalizable AI systems from a data-centric perspective.
+        Currently, I'm trying to answer, 1) <em>Does more data always result in better performance?</em> 2) <em>How to generate corner cases with generative models?</em> 3) <em>How to fix corner cases with minimum human intervention?</em>
         </p>
         <p>
             👋 <span style="color:red">I'm currently on job market of both academics and industry. Feel free to send me emails if we are a good fit!</span>
@@ -149,11 +150,12 @@
         </p> -->
         <p> Some recent works include:
              <ul>
-                <li> <strong>AIGC Helpfulness - Omni-modal Large Language Model:</strong> <a href="https://emova-ollm.github.io/" target="_blank">EMOVA</a>.</li>
-                <li> <strong>AIGC Harmfulness - Data Flywheel for (M)LLM Alignment:</strong> <a href="https://arxiv.org/abs/2310.10477" target="_blank">Mistake analysis</a>, <a href="https://arxiv.org/abs/2405.00557" target="_blank">MoTE</a>, <a href="https://gyhdog99.github.io/projects/ecso/" target="_blank">ECSO</a>.</li>
-                <li> <strong>AIGC Helpfulness - Mixture of Cluster-conditional Experts (MoCE):</strong> <a href="https://kaichen1998.github.io/projects/mocle/" target="_blank">MoCLE</a>, <a href="https://arxiv.org/abs/2402.05382" target="_blank">MoCE</a>, <a href="https://arxiv.org/abs/2205.13267">SDR</a>.</li>
-                <li> <strong>AIGC Helpfulness - Controllable Perception Corner Case Generation:</strong> <a href="https://kaichen1998.github.io/projects/geodiffusion/">GeoDiffusion</a>, <a href="https://gaoruiyuan.com/magicdrive/">MagicDrive</a>, <a href="https://kaichen1998.github.io/projects/trackdiffusion/">TrackDiffusion</a>, <a href="https://kaichen1998.github.io/projects/geom-erasing/">Geom-Erasing</a>, <a href="https://arxiv.org/abs/2403.13304">DetDiffusion</a>, <a href="https://arxiv.org/abs/2405.14475">MagicDrive3D</a> (generative models), <a href="https://coda-dataset.github.io/">CODA</a>, <a href="https://coda-dataset.github.io/coda-lm">CODA-LM</a> (corner case dataset).</li>
-                <li> <strong>AIGC Helpfulness - Object-level Self-supervised Learning:</strong> <a href="https://arxiv.org/abs/2303.17152">MixedAE</a>, <a href="https://arxiv.org/abs/2108.12178">MultiSiam</a>.</li>
+                <li> <strong>Multi-modal Foundation Models:</strong> <a href="https://emova-ollm.github.io/" target="_blank">EMOVA</a>, <a href="https://github.com/gyhdog99/RACRO2" target="_blank">RACRO</a>.</li>
+                <li> <strong>Multi-modal Foundation Models - Mixture of Cluster-conditional Experts (MoCE):</strong> <a href="https://kaichen1998.github.io/projects/mocle/" target="_blank">MoCLE</a>, <a href="https://arxiv.org/abs/2402.05382" target="_blank">MoCE</a>, <a href="https://arxiv.org/abs/2205.13267">SDR</a>.</li>
+                <li> <strong>Multi-modal Foundation Models - (M)LLM Reliability:</strong> <a href="https://arxiv.org/abs/2310.10477" target="_blank">Mistake analysis</a>, <a href="https://arxiv.org/abs/2405.00557" target="_blank">MoTE</a>, <a href="https://gyhdog99.github.io/projects/ecso/" target="_blank">ECSO</a>, <a href="https://kaichen1998.github.io/projects/tri-he/" target="_blank">Tri-HE</a>, <a href="https://arxiv.org/abs/2502.12635" target="_blank">Val_PPL</a>.</li>
+                <li> <strong>Visual World Models - Corner Cases for Autonomous Driving:</strong> <a href="https://coda-dataset.github.io/w-coda2024/">ECCV 2024 W-CODA Workshop</a>, <a href="https://coda-dataset.github.io/coda-lm">CODA-LM</a>, <a href="https://coda-dataset.github.io/">CODA</a>.</li>
+                <li> <strong>Visual World Models - Geometric-controllable Visual Generation:</strong> <a href="https://kaichen1998.github.io/projects/geodiffusion/">GeoDiffusion</a>, <a href="https://kaichen1998.github.io/projects/trackdiffusion/">TrackDiffusion</a>, <a href="https://gaoruiyuan.com/magicdrive/">MagicDrive</a>, <a href="https://kaichen1998.github.io/projects/geom-erasing/">Geom-Erasing</a>, <a href="https://arxiv.org/abs/2403.13304">DetDiffusion</a>, <a href="https://gaoruiyuan.com/magicdrive-v2/">MagicDrive-V2</a>, <a href="https://gaoruiyuan.com/magicdrive3d/">MagicDrive3D</a>.</li>
+                <!-- <li> <strong>AIGC Helpfulness - Object-level Self-supervised Learning:</strong> <a href="https://arxiv.org/abs/2303.17152">MixedAE</a>, <a href="https://arxiv.org/abs/2108.12178">MultiSiam</a>.</li> -->
             </ul>
         </p>
     </div>
@@ -165,36 +167,35 @@
         News
     </div>
     <div style="height:200px;overflow-y:auto">
-    <ul>
-    
-    <li> [2025.06] <span style="color:red"><b>[New!]</b></span> We release <a href="https://github.com/gyhdog99/RACRO2">RACRO</a>, an efficient and scalable method of build multi-modal reasoning models which can flexibly adapt to any advanced reasoning LLMs during infernece time. Welcome to try our <a href="https://huggingface.co/spaces/Emova-ollm/RACRO-demo">demo</a>!</li>
-    <li> [2025.05] <span style="color:red"><b>[New!]</b></span> I give a talk on <a href="https://emova-ollm.github.io/">EMOVA</a> at AI TIME! Check <a href="https://www.bilibili.com/video/BV1VsTfzdEJ8/">recording (Chinese)</a> here.</li>
-    <li> [2025.03] <span style="color:red"><b>[New!]</b></span> <a href="https://emova-ollm.github.io/">EMOVA</a>, a frontier end-to-end omni-modal model with SoTA vision-language and speech abilities, has been accepted by CVPR 2025 and fully open-sourced!</li>
-    <li> [2025.06] One paper accepted by ICCV 2025! See you in Hawaii!</li>
-    <li> [2025.06] One paper accepted by TMLR 2025!</li>
-    <li> [2025.05] One paper accepted by ACL 2025! See you in Vienna!</li>
+    <ul>    
+    <li> [2025.06] <span style="color:red"><b>[New!]</b></span> We open-source <a href="https://github.com/gyhdog99/RACRO2">RACRO</a>, an efficient and scalable method of build multi-modal reasoning models which can flexibly adapt to any advanced reasoning LLMs during infernece time. Welcome to try our <a href="https://huggingface.co/spaces/Emova-ollm/RACRO-demo">demo</a>!</li>
+    <li> [2025.03] <span style="color:red"><b>[New!]</b></span> We open-source <a href="https://emova-ollm.github.io/">EMOVA</a>, a frontier end-to-end Omni-modal LLM with SoTA vision-language and speech abilities, which has been accepted by CVPR 2025!</li>
+    <li> [2025.06] One paper (<a href="https://gaoruiyuan.com/magicdrive-v2/">MagicDrive-V2</a>) accepted by ICCV 2025! See you in Hawaii!</li>
+    <li> [2025.06] One paper (<a href="https://kaichen1998.github.io/projects/tri-he/">Tri-HE</a>) accepted by TMLR 2025!</li>
+    <li> [2025.05] One paper (<a href="https://arxiv.org/abs/2405.00557">MoTE</a>) accepted by ACL 2025! See you in Vienna!</li>
+    <li> [2025.05] I give a talk on <a href="https://emova-ollm.github.io/">EMOVA</a> at <a href="https://www.bilibili.com/video/BV1VsTfzdEJ8/">AI TIME</a>!</li>
     <li> [2025.03] Invited to serve as a reviewer for NeurIPS 2025, ICCV 2025, ACM MM 2025!</li>
-    <li> [2025.02] One paper accepted by CVPR 2025! See you in Nashville!</li>
+    <li> [2025.02] One paper (<a href="https://emova-ollm.github.io/">EMOVA</a>) accepted by CVPR 2025! See you in Nashville!</li>
     <li> [2024.12] Invited to serve as an area chair for IJCAI 2025!</li>
     <li> [2024.12] Invited to serve as a reviewer for ICML 2025!</li>
-    <li> [2024.10] We announace <a href="https://emova-ollm.github.io/">EMOVA</a>, a novel end-to-end omni-modal model (i.e., w/o ASR or TTS) with SoTA vision-language and speech abilities, further supporting emotional dialogue</li>
-    <li> [2024.10] Two papers accepted by WACV 2025! See you in Tucson!</li>
+    <!-- <li> [2024.10] We announace <a href="https://emova-ollm.github.io/">EMOVA</a>, a novel end-to-end omni-modal model (i.e., w/o ASR or TTS) with SoTA vision-language and speech abilities, further supporting emotional dialogue</li> -->
+    <li> [2024.10] Two papers (<a href="https://coda-dataset.github.io/coda-lm/">CODA-LM</a> and <a href="https://kaichen1998.github.io/projects/trackdiffusion/">TrackDiffusion</a>) accepted by WACV 2025! See you in Tucson!</li>
+    <li> [2024.09] Invited to serve as a reviewer for ICLR 2025!</li>
     <li> [2024.09] We will hold the <a href="https://coda-dataset.github.io/w-coda2024/">Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving: Towards Next-Generation Solutions</a> at ECCV 2024! Looking forward to see you in Milano, Italy!</li>
-    <li> [2024.08] Invited to serve as a reviewer for ICLR 2025! </li>
     <li> [2024.07] Two papers accepted by ECCV 2024! See you in Milano, Italy!</li>
     <li> [2024.05] I give a talk about Geometric-controllable Visual Generation: A Systemetic Solution (GeoDiffusion, TrackDiffusion, MagicDrive, W-CODA2024) at <a href="https://www.bilibili.com/video/BV18T421v7Nf/">VALSE Webinar</a>!</li>
     <li> [2024.04] I give a talk about corner case generation for autonomous driving (GeoDiffusion, TrackDiffusion, MagicDrive, DetDiffusion) at <a href="https://www.bilibili.com/video/BV14Z421M7Nr/">AIDriver</a>! </li>
     <li> [2024.04] <a href="https://coda-dataset.github.io/coda-lm/">CODA-LM</a>, the new multi-modal version of <a href="https://coda-dataset.github.io">CODA</a>, is online! </li>
     <li> [2024.03] Invited to serve as a reviewer for NeuIPS 2024, TCSVT! </li>
     <li> [2024.02] One paper accepted by CVPR 2024! See you in Seattle! </li>
-    <li> [2024.02] I give a talk about our ICLR 2024 work <a href="https://arxiv.org/abs/2310.10477">Mistake Analysis</a> at <a href="https://www.bilibili.com/video/BV1eF4m1579H/">AI TIME</a>! </li>
     <li> [2024.02] Code and checkpoints of <a href="https://kaichen1998.github.io/projects/geodiffusion/">GeoDiffusion</a> and <a href="https://gaoruiyuan.com/magicdrive/">MagicDrive</a> have been released. Welcome to try! </li>
+    <li> [2024.02] I give a talk about our ICLR 2024 work <a href="https://arxiv.org/abs/2310.10477">Mistake Analysis</a> at <a href="https://www.bilibili.com/video/BV1eF4m1579H/">AI TIME</a>! </li>
     <li> [2024.01] I give a talk about our ICLR 2024 work <a href="https://arxiv.org/abs/2310.10477">Mistake Analysis</a> at <a href="https://www.bilibili.com/video/BV1qc411v7p5/?spm_id_from=333.999.0.0&vd_source=91506b5273802233da7048426df9286a">TechBeat</a>! </li>
     <li> [2024.01] Three papers accepted by ICLR 2024! See you in Vienna! </li>
     <li> [2024.01] Invited to serve as a reviewer for TPAMI, ECCV 2024, ACCV 2024! </li>
     <li> [2023.12] Our <a href="https://kaichen1998.github.io/projects/mocle/">MoCLE</a> is reported by <a href="https://mp.weixin.qq.com/s/JSB0wNhU1GBRKJOEZbMHZw?poc_token=HNDKj2Wjaz666RfdxhJtszL19BQwHusWeK3MNPWI">Liangziwei</a>! </li>
     <li> [2023.12] Our <a href="https://kaichen1998.github.io/projects/mocle/">MoCLE</a>, the first MLLM with MoE architecture for instruction customization and generalization, is on Arxiv! </li>
-    <li> [2023.12] The first stage of our controllable perception data generation series of works, <a href="https://kaichen1998.github.io/projects/geodiffusion/">GeoDiffusion</a> (2D detection), <a href="https://gaoruiyuan.com/magicdrive/">MagicDrive</a> (3D detection), <a href="https://kaichen1998.github.io/projects/trackdiffusion/">TrackDiffusion</a> (video tracking) and <a href="https://kaichen1998.github.io/projects/geom-erasing/">Geom-Erasing</a> (concept removal), is on Arxiv! </li>
+    <!-- <li> [2023.12] The first stage of our controllable perception data generation series of works, <a href="https://kaichen1998.github.io/projects/geodiffusion/">GeoDiffusion</a> (2D detection), <a href="https://gaoruiyuan.com/magicdrive/">MagicDrive</a> (3D detection), <a href="https://kaichen1998.github.io/projects/trackdiffusion/">TrackDiffusion</a> (video tracking) and <a href="https://kaichen1998.github.io/projects/geom-erasing/">Geom-Erasing</a> (concept removal), is on Arxiv! </li> -->
     <li> [2023.12] Recent surveys <a href="https://arxiv.org/abs/2311.05332">[1]</a><a href="https://zhuanlan.zhihu.com/p/663369554">[2]</a> show the remarkble GPT-4V still suffers from corner cases from our <a href="https://coda-dataset.github.io/">CODA</a> dataset! </li>
     <li> [2023.12] Invited to serve as a reviewer for IJCAI 2024, CVPR 2024, ICLR 2024! </li>
     <li> [2023.10] Our <a href="https://arxiv.org/abs/2310.02601">MagicDrive</a> is reported by <a href="https://mp.weixin.qq.com/s/jtFdJM0eXbaZ_7oeODcLRw">Xinzhiyuan</a>, and <a href="https://arxiv.org/abs/2310.10477">Mistake Analysis</a> is reported by <a href="https://mp.weixin.qq.com/s/aExDpse1Z8GZp_t8Yv-6uQ">Liangziwei</a>! </li>
@@ -227,63 +228,74 @@
 <!-- Publications -->
 <section class="section publications-section">
     <div class="section-title">
-        Selected Publications
+        Publications
     </div>
-    <p>Full publication list on <a class="link" href="https://scholar.google.com/citations?hl=en&user=3qBfyLIAAAAJ" target="_blank">Google Scholar</a>. (* denotes equal contribution)</p>
-    <h5><b>AIGC Harmfulness - Data Flywheel for (M)LLM Alignment</b></h5>    
-    <div class="publication-container">
+    <p>Full publication list on <a class="link" href="https://scholar.google.com/citations?hl=en&user=3qBfyLIAAAAJ" target="_blank">Google Scholar</a>. (* denotes equal contribution, <span style="background-color: #f2e8d8;">highlighted blocks</span> denote the represnetative works)</p>
+
+    <p>Works are organized with respect to topics, including:
+        <ul>
+            <li><strong>Multi-modal Foundation Models</strong>: <a href="#emova">Omni-modal LLMs</a>, <a href="#moce">Mixture of Experts</a>, <a href="#reliability">(M)LLM Reliability</a></li>
+            <li><strong>Visual World Models</strong>: <a href="#coda">Corner Cases for Autonomous Driving</a>, <a href="#geodiffusion">Geometric-controllable Visual Generation</a></li>
+            <li><strong>Representation Learning</strong>: <a href="#ssl">Object-level Self-supervised Learning</a></li>
+        </ul>
+    </p>
+
+
+    <!------------------------------------------------>
+    <!-- MLLM -->
+    <!------------------------------------------------>
+    <br/>
+    <h5 id='emova'><b>Multi-modal Foundation Models</b></h5>
+    <div class="publication-container" style="background-color: #f2e8d8;">
         <div class="teaser-container">
-            <img class="teaser" src="./images/pub/ecso.png" alt="ecso.png">
+            <video class="teaser" autoplay controls muted loop src="https://emova-ollm.github.io/static/images/video_demo_compressed.mp4" alt="emova.mp4">
         </div>
         <div class="info-container">
                 <p class="title">
-                    <a class="title_link" href="https://arxiv.org/abs/2403.09572" target="_blank">Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation</a>
+                    <a class="title_link" href="https://arxiv.org/abs/2409.18042" target="_blank">EMOVA: Empowering Language Models to See, Hear and Speak with Vivid Emotions</a>
                 </p>
-                <div class="authors"><p>Yunhao Gou*, <strong>Kai Chen*</strong>, Zhili Liu*, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung, James Kwok, Yu Zhang.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">Free data engine for MLLM alignment on its own LLM!</span></em></p></b></div>
-                <div class="conference"><p><em>European Conference on Computer Vision (ECCV), 2024.</em></p></div>
-                <a class="url" href="https://arxiv.org/abs/2403.09572" target="_blank">[PDF]</a>
-                <a class="url" href="https://github.com/gyhdog99/ECSO" target="_blank">[Project page]</a>
+                <div class="authors"><p><strong>Kai Chen*</strong>, Yunhao Gou*, Runhui Huang*, Zhili Liu*, Daxin Tan* <em>and other 26 authors</em></p></div>
+                <div class="authors"><p><em><b><span style="color:red">Fully open-sourced Omni-modal LLMs with SoTA vision-language and speech abilities!</span></em></p></b></div>
+                <div class="conference"><p><em>IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2409.18042" target="_blank">[PDF]</a>
+                <a class="url" href="https://emova-ollm.github.io/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://www.youtube.com/watch?v=wtI2RLyCQNc" target="_blank">[Talk]</a>
+                <a class="url" href="https://www.bilibili.com/video/BV1VsTfzdEJ8/" target="_blank">[Talk (Chinese)]</a>
+                <a class="url" href="https://mp.weixin.qq.com/s/e2KkDjqbWNy7wSv0geCNUg" target="_blank">[Wechat Post]</a>
+                <a class="url" href="https://github.com/emova-ollm/EMOVA" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/emova-ollm/EMOVA">
         </div>
     </div>
 
     <div class="publication-container">
         <div class="teaser-container">
-            <img class="teaser" src="./images/pub/mote.png" alt="mote.png">
+        <div class="teaser-container">
+            <img class="teaser" style="margin-top: 25px;" src="https://github.com/gyhdog99/RACRO2/raw/main/assets/images/intro.png" alt="racro.png">
+        </div>
         </div>
         <div class="info-container">
                 <p class="title">
-                    <a class="title_link" href="https://arxiv.org/abs/2405.00557" target="_blank">Mixture of insighTful Experts (MoTE): The Synergy of Thought Chains and Expert Mixtures in Self-Alignment</a>
+                    <a class="title_link" href="https://arxiv.org/abs/2506.04559" target="_blank">Perceptual Decoupling for Scalable Multi-modal Reasoning via Reward-Optimized Captioning</a>
                 </p>
-                <div class="authors"><p>Zhili Liu*, Yunhao Gou*, <strong>Kai Chen*</strong>, Lanqing Hong, Jiahui Gao, Fei Mi, Yu Zhang, Zhenguo Li, Xin Jiang, Qun Liu, James T. Kwok</p></div>
-                <div class="authors"><p><em><b><span style="color:red">Self-alignment with MoE-empowered CoT multi-dimensional analysis!</span></em></p></b></div>
-                <div class="conference"><p><em>Arxiv preprint, 2024.</em></p></div>
-                <a class="url" href="https://arxiv.org/abs/2405.00557" target="_blank">[PDF]</a>
+                <div class="authors"><p>Yunhao Gou*, <strong>Kai Chen*</strong>, Zhili Liu*, Lanqing Hong, Xin Jin, Zhenguo Li, James T. Kwok, Yu Zhang</p></div>
+                <div class="authors"><p><em><b><span style="color:red">Scaling reasoning MLLMs via adopting any advanced LLM reasoners during inference time!</span></em></p></b></div>
+                <div class="conference"><p><em>Arxiv preprint, 2025</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2506.04559" target="_blank">[PDF]</a>
+                <a class="url" href="https://huggingface.co/spaces/Emova-ollm/RACRO-demo" target="_blank">[Demo]</a>
+                <a class="url" href="https://github.com/gyhdog99/RACRO2" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/gyhdog99/RACRO2">
         </div>
     </div>
+    
 
-    <div class="publication-container">
+    <!------------------------------------------------>
+    <!-- MoE -->
+    <!------------------------------------------------>
+    <br/>
+    <h5 id='moce'><b>Multi-modal Foundation Models - Mixture of Cluster-conditional Experts (MoCE)</b></h5>
+    <div class="publication-container" style="background-color: #f2e8d8;">
         <div class="teaser-container">
-            <img class="teaser" src="./images/pub/mistake_analysis.png" alt="mistake_analysis.png">
-        </div>
-        <div class="info-container">
-                <p class="title">
-                    <a class="title_link" href="https://arxiv.org/abs/2310.10477" target="_blank">Gaining Wisdom from Setbacks: Aligning Large Language Models via Mistake Analysis</a>
-                </p>
-                <div class="authors"><p><strong>Kai Chen*</strong>, Chunwei Wang*, Kuo Yang, Jianhua Han, Lanqing Hong, Fei Mi, Hang Xu, Zhengying Liu, Wenyong Huang, Zhenguo Li, Dit-Yan Yeung, Lifeng Shang, Xin Jiang, Qun Liu.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">Enhancing LLM's generation ability via its own discrimination ability!</span></em></p></b></div>
-                <div class="conference"><p><em>International Conference on Learning Representations (ICLR), 2024.</em></p></div>
-                <a class="url" href="https://arxiv.org/abs/2310.10477" target="_blank">[PDF]</a>
-                <a class="url" href="https://mp.weixin.qq.com/s/aExDpse1Z8GZp_t8Yv-6uQ" target="_blank">[Wechat Post]</a>
-                <a class="url" href="https://www.bilibili.com/video/BV1qc411v7p5/?spm_id_from=333.999.0.0&vd_source=91506b5273802233da7048426df9286a" target="_blank">[Talk]</a>
-        </div>
-    </div>
-
-    <h5><b>AIGC Helpfulness - Mixture of Cluster-conditional Experts</b></h5>
-    <div class="publication-container">
-        <div class="teaser-container">
-                
-            <img class="teaser" src="./images/pub/mocle.png" alt="mocle.png">
+            <img class="teaser" style="margin-top: 10px;" src="./images/pub/mocle.png" alt="mocle.png">
         </div>
         <div class="info-container">
                 <p class="title">
@@ -293,9 +305,11 @@
                 <div class="authors"><p><em><b><span style="color:red">First MLLM with MoE for instruction customization and generalization!</span></em></p></b></div>
                 <div class="conference"><p><em>Arxiv preprint, 2023.</em></p></div>
                 <a class="url" href="https://arxiv.org/abs/2312.12379" target="_blank">[PDF]</a>
-                <a class="url" href="https://kaichen1998.github.io/projects/mocle/" target="_blank">[Project page]</a>
-                <a class="url" href="https://mp.weixin.qq.com/s/JSB0wNhU1GBRKJOEZbMHZw?poc_token=HNDKj2Wjaz666RfdxhJtszL19BQwHusWeK3MNPWI" target="_blank">[Wechat Post]</a>
+                <a class="url" href="https://kaichen1998.github.io/projects/mocle/" target="_blank">[Webpage]</a>
                 <a class="url" href="https://www.techbeat.net/talk-info?id=849" target="_blank">[Talk]</a>
+                <a class="url" href="https://mp.weixin.qq.com/s/JSB0wNhU1GBRKJOEZbMHZw?poc_token=HNDKj2Wjaz666RfdxhJtszL19BQwHusWeK3MNPWI" target="_blank">[Wechat Post]</a>
+                <a class="url" href="https://github.com/gyhdog99/mocle" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/gyhdog99/mocle">
         </div>
     </div>
 
@@ -315,11 +329,11 @@
 
     <div class="publication-container">
         <div class="teaser-container">
-            <img class="teaser" src="./images/pub/sdr.png" alt="sdr.png">
+            <img class="teaser" style="margin-top: 10px;" src="./images/pub/sdr.png" alt="sdr.png">
         </div>
         <div class="info-container">
                 <p class="title">
-                    <a class="title_link" href="https://arxiv.org/abs/2205.13267" target="_blank">Task-Customized Self-Supervised Pre-training with Scalable Dynamic Routing.</a>
+                    <a class="title_link" href="https://arxiv.org/abs/2205.13267" target="_blank">Task-Customized Self-Supervised Pre-training with Scalable Dynamic Routing</a>
                 </p>
                 <div class="authors"><p>Zhili Liu, Jianhua Han, <strong>Kai Chen</strong>, Lanqing Hong, Hang Xu, Chunjing Xu, Zhenguo Li.</p></div>
                 <div class="conference"><p><em>AAAI Conference on Artificial Intelligence (AAAI), 2022.</em></p></div>
@@ -327,7 +341,116 @@
         </div>
     </div>
 
-    <h5><b>AIGC Helpfulness - Multi-modal Corner Case Datasets for Autonomous Driving</b></h5>
+    <!------------------------------------------------>
+    <!-- MLLM Reliability -->
+    <!------------------------------------------------>
+    <br/>
+    <h5 id='reliability'><b>Multi-modal Foundation Models - (M)LLM Reliability via Self-alignment</b></h5>
+    <div class="publication-container">
+        <div class="teaser-container">
+            <img class="teaser" style="margin-top: 10px;" src="./images/pub/val-ppl.png" alt="val-ppl.png">
+        </div>
+        <div class="info-container">
+                <p class="title">
+                    <a class="title_link" href="https://arxiv.org/abs/2502.12635" target="_blank">Corrupted but Not Broken: Rethinking the Impact of Corrupted Data in Visual Instruction Tuning</a>
+                </p>
+                <div class="authors"><p>Yunhao Gou, Hansi Yang, Zhili Liu, <strong>Kai Chen</strong>, Yihan Zeng, Lanqing Hong, Zhenguo Li, Qun Liu, James T Kwok, Yu Zhang.</p></div>
+                <div class="conference"><p><em>Arxiv preprint, 2025.</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2502.12635" target="_blank">[PDF]</a>
+        </div>
+    </div>
+
+    <div class="publication-container">
+        <div class="teaser-container">
+            <img class="teaser" src="./images/pub/tri-he.png" alt="tri-he.png">
+        </div>
+        <div class="info-container">
+                <p class="title">
+                    <a class="title_link" href="https://arxiv.org/abs/2410.23114" target="_blank">Unified Triplet-Level Hallucination Evaluation for Large Vision-Language Models</a>
+                </p>
+                <div class="authors"><p>Junjie Wu*, Tsz Ting Chung*, <strong>Kai Chen*</strong>, Dit-Yan Yeung.</p></div>
+                <div class="conference"><p><em>Transactions on Machine Learning Research (TMLR), 2025.</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2410.23114" target="_blank">[PDF]</a>
+                <a class="url" href="https://kaichen1998.github.io/projects/tri-he/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://github.com/wujunjie1998/Tri-HE" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wujunjie1998/Tri-HE">
+        </div>
+    </div>
+
+    <div class="publication-container" style="background-color: #f2e8d8;">
+        <div class="teaser-container">
+            <img class="teaser" style="margin-top: 8px;" src="./images/pub/ecso.png" alt="ecso.png">
+        </div>
+        <div class="info-container">
+                <p class="title">
+                    <a class="title_link" href="https://arxiv.org/abs/2403.09572" target="_blank">Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation</a>
+                </p>
+                <div class="authors"><p>Yunhao Gou*, <strong>Kai Chen*</strong>, Zhili Liu*, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung, James Kwok, Yu Zhang.</p></div>
+                <div class="authors"><p><em><b><span style="color:red">Aligning a MLLM with its own LLM!</span></em></p></b></div>
+                <div class="conference"><p><em>European Conference on Computer Vision (ECCV), 2024.</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2403.09572" target="_blank">[PDF]</a>
+                <a class="url" href="https://gyhdog99.github.io/projects/ecso/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://github.com/gyhdog99/ECSO" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/gyhdog99/ECSO">
+        </div>
+    </div>
+
+    <div class="publication-container">
+        <div class="teaser-container">
+            <img class="teaser" src="./images/pub/mote.png" alt="mote.png">
+        </div>
+        <div class="info-container">
+                <p class="title">
+                    <a class="title_link" href="https://arxiv.org/abs/2405.00557" target="_blank">Mixture of insighTful Experts (MoTE): The Synergy of Thought Chains and Expert Mixtures in Self-Alignment</a>
+                </p>
+                <div class="authors"><p>Zhili Liu*, Yunhao Gou*, <strong>Kai Chen*</strong>, Lanqing Hong, Jiahui Gao, Fei Mi, Yu Zhang, Zhenguo Li, Xin Jiang, Qun Liu, James T. Kwok</p></div>
+                <!-- <div class="authors"><p><em><b><span style="color:red">Self-alignment with MoE-empowered CoT multi-dimensional analysis!</span></em></p></b></div> -->
+                <div class="conference"><p><em>Annual Meeting of the Association for Computational Linguistics (ACL), 2025.</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2405.00557" target="_blank">[PDF]</a>
+        </div>
+    </div>
+
+    <div class="publication-container">
+        <div class="teaser-container">
+            <img style="margin-top: 10px;" class="teaser" src="./images/pub/mistake_analysis.png" alt="mistake_analysis.png">
+        </div>
+        <div class="info-container">
+                <p class="title">
+                    <a class="title_link" href="https://arxiv.org/abs/2310.10477" target="_blank">Gaining Wisdom from Setbacks: Aligning Large Language Models via Mistake Analysis</a>
+                </p>
+                <div class="authors"><p><strong>Kai Chen*</strong>, Chunwei Wang*, Kuo Yang, Jianhua Han, Lanqing Hong, Fei Mi, Hang Xu, Zhengying Liu, Wenyong Huang, Zhenguo Li, Dit-Yan Yeung, Lifeng Shang, Xin Jiang, Qun Liu.</p></div>
+                <div class="authors"><p><em><b><span style="color:red">Scalable oversight for LLM's generation ability via its own discrimination ability!</span></em></p></b></div>
+                <div class="conference"><p><em>International Conference on Learning Representations (ICLR), 2024.</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2310.10477" target="_blank">[PDF]</a>
+                <a class="url" href="https://www.bilibili.com/video/BV1qc411v7p5/?spm_id_from=333.999.0.0&vd_source=91506b5273802233da7048426df9286a" target="_blank">[Talk]</a>
+                <a class="url" href="https://mp.weixin.qq.com/s/aExDpse1Z8GZp_t8Yv-6uQ" target="_blank">[Wechat Post]</a>
+        </div>
+    </div>
+    
+
+    <!------------------------------------------------>
+    <!-- CODA -->
+    <!------------------------------------------------>
+    <br/>
+    <h5 id='coda'><b>Visual World Models - Multi-modal Corner Cases for Autonomous Driving (CODA)</b></h5>
+    <div class="publication-container" style="background-color: #f2e8d8;">
+        <div class="teaser-container">
+            <img class="teaser" style="margin-top: 20px;" src="./images/pub/w-coda.png" alt="w-coda.png">
+        </div>
+        <div class="info-container">
+                <p class="title">
+                    <a class="title_link" href="https://arxiv.org/abs/2507.01735" target="_blank">ECCV 2024 W-CODA: 1st Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving</a>
+                </p>
+                <div class="authors"><p><strong>Kai Chen*</strong>, Ruiyuan Gao*, Lanqing Hong*, Hang Xu, Xu Jia, Holger Caesar, Dengxin Dai, Bingbing Liu, Dzmitry Tsishkou, Songcen Xu, Chunjing Xu, Qiang Xu, Huchuan Lu, and Dit-Yan Yeung.</p></div>
+                <div class="authors"><p><em><b><span style="color:red">First workshop on Multi-modal Foundation Models for Autonomous Driving Corner Cases!</span></em></p></b></div>
+                <div class="conference"><p><em>European Conference on Computer Vision (ECCV), 2024.</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2507.01735" target="_blank">[PDF]</a>
+                <a class="url" href="https://coda-dataset.github.io/w-coda2024/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://mp.weixin.qq.com/s/RsAI4azRRsK8egMi1gTz9w" target="_blank">[Wechat Post 1]</a>
+                <a class="url" href="https://mp.weixin.qq.com/s/2cyvScTrC1xYJHxsjPADmA" target="_blank">[Wechat Post 2]</a>
+        </div>
+    </div>
+
     <div class="publication-container">
         <div class="teaser-container">
             <img class="teaser" src="./images/pub/coda-lm.png" alt="coda-lm.png">
@@ -337,11 +460,13 @@
                     <a class="title_link" href="https://arxiv.org/abs/2404.10595" target="_blank">Automated Evaluation of Large Vision-Language Models on Self-driving Corner Cases</a>
                 </p>
                 <div class="authors"><p><strong>Kai Chen*</strong>, Yanze Li*, Wenhua Zhang*, Yanxin Liu, Pengxiang Li, Ruiyuan Gao, Lanqing Hong, Meng Tian, Xinhai Zhao, Zhenguo Li, Dit-Yan Yeung, Huchuan Lu, and Xu Jia.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">First multi-modal corner case dataset for autonomous driving!</span></em></p></b></div>
+                <!-- <div class="authors"><p><em><b><span style="color:red">First multi-modal corner case dataset for autonomous driving!</span></em></p></b></div> -->
                 <div class="conference"><p><em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025.</em></p></div>
                 <a class="url" href="https://arxiv.org/abs/2404.10595" target="_blank">[PDF]</a>
-                <a class="url" href="https://coda-dataset.github.io/coda-lm/" target="_blank">[Project page]</a>
+                <a class="url" href="https://coda-dataset.github.io/coda-lm/" target="_blank">[Webpage]</a>
                 <a class="url" href="https://coda-dataset.github.io/w-coda2024/" target="_blank">[ECCV 2024 Workshop]</a>
+                <a class="url" href="https://github.com/DLUT-LYZ/CODA-LM" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/DLUT-LYZ/CODA-LM">
         </div>
     </div>
 
@@ -354,17 +479,22 @@
                     <a class="title_link" href="https://arxiv.org/abs/2203.07724" target="_blank">CODA: A Real-World Corner Case Dataset for Object Detection in Autonomous Driving</a>
                 </p>
                 <div class="authors"><p>Kaican Li*, <strong>Kai Chen*</strong>, Haoyu Wang*, Lanqing Hong, Chaoqiang Ye, Jianhua Han, Yukuai Chen, Wei Zhang, Chunjing Xu, Dit-Yan Yeung, Xiaodan Liang, Zhenguo Li, Hang Xu.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">First large-scale real-life road corner case dataset!</span></em></p></b></div><div class="conference"><p><em>European Conference on Computer Vision (ECCV), 2022.</em></p></div>
+                <!-- <div class="authors"><p><em><b><span style="color:red">First large-scale real-life road corner case dataset!</span></em></p></b></div> -->
+                <div class="conference"><p><em>European Conference on Computer Vision (ECCV), 2022.</em></p></div>
                 <div class="conference"><p><em>Workshop of Automonous Driving, Vision and Learning Seminar (VALSE), 2023 (<span style="color:red"><b>spotlight</b></span>).</em></p></div>
                 <a class="url" href="https://arxiv.org/abs/2203.07724" target="_blank">[PDF]</a>
-                <a class="url" href="https://coda-dataset.github.io/" target="_blank">[Website]</a>
+                <a class="url" href="https://coda-dataset.github.io/" target="_blank">[Webpage]</a>
                 <a class="url" href="https://www.bilibili.com/video/BV1nN41187mk/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=91506b5273802233da7048426df9286a&t=9039" target="_blank">[Talk]</a>
                 <a class="url" href="https://sslad2022.github.io/" target="_blank">[ECCV 2022 Workshop]</a>
-                <a class="url" href="https://zhuanlan.zhihu.com/p/663369554" target="_blank">[GPT-4V still suffers from CODA]</a>
+                <a class="url" href="https://zhuanlan.zhihu.com/p/663369554" target="_blank">[GPT-4V suffers from CODA]</a>
         </div>
     </div>
 
-    <h5><b>AIGC Helpfulness - Controllable Perception Corner Case Generation</b></h5>
+    <!------------------------------------------------>
+    <!-- GeoDiffusion -->
+    <!------------------------------------------------>
+    <br/>
+    <h5 id='geodiffusion'><b>Visual World Models - Geometric-controllable Visual Generation</b></h5>
     <div class="publication-container">
         <div class="teaser-container">
             <img class="teaser" src="./images/pub/magicdrive3d.jpg" alt="magicdrive3d.jpg">
@@ -374,10 +504,32 @@
                     <a class="title_link" href="https://arxiv.org/abs/2405.14475" target="_blank">MagicDrive3D: Controllable 3D Generation for Any-View Rendering in Street Scenes</a>
                 </p>
                 <div class="authors"><p>Ruiyuan Gao, <strong>Kai Chen</strong>, Zhihao Li, Lanqing Hong, Zhenguo Li, Qiang Xu.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">Any-view street scene generation!</span></em></p></b></div>
+                <div class="authors"><p><em><b><span style="color:red">First work on geometric-controllable 3D scene generation!</span></em></p></b></div>
                 <div class="conference"><p><em>Arxiv preprint, 2024.</em></p></div>
                 <a class="url" href="https://arxiv.org/abs/2405.14475" target="_blank">[PDF]</a>
-                <a class="url" href="https://gaoruiyuan.com/magicdrive3d/" target="_blank">[Project page]</a>
+                <a class="url" href="https://gaoruiyuan.com/magicdrive3d/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://mp.weixin.qq.com/s/DdUfHmGvkyXz2iq84Jc2Zg" target="_blank">[Wechat Post]</a>
+                <a class="url" href="https://github.com/flymin/MagicDrive3D" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/flymin/MagicDrive3D">
+        </div>
+    </div>
+
+    <div class="publication-container">
+        <div class="teaser-container">
+            <video class="teaser" autoplay controls muted loop src="https://gaoruiyuan.com/assets/img/teasers/MagicDrive-V2.mp4" alt="magicdrivev2.mp4">
+        </div>
+        <div class="info-container">
+                <p class="title">
+                    <a class="title_link" href="http://arxiv.org/abs/2411.13807" target="_blank">MagicDrive-V2: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control</a>
+                </p>
+                <div class="authors"><p>Ruiyuan Gao, <strong>Kai Chen</strong>, Bo Xiao, Lanqing Hong, Zhenguo Li, and Qiang Xu.</p></div>
+                <div class="authors"><p><em><b><span style="color:red">Stronger and longer multi-view video generation!</span></em></p></b></div>
+                <div class="conference"><p><em>IEEE/CVF International Conference on Computer Vision (ICCV), 2025.</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2411.13807" target="_blank">[PDF]</a>
+                <a class="url" href="https://gaoruiyuan.com/magicdrive-v2/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://mp.weixin.qq.com/s/qHWmorj_YiMXYWQnRK0amA" target="_blank">[Wechat Post]</a>
+                <a class="url" href="https://github.com/flymin/MagicDrive-V2" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/flymin/MagicDrive-V2">
         </div>
     </div>
 
@@ -386,15 +538,16 @@
             <img class="teaser" src="./images/pub/geom_erasing.png" alt="geom_erasing.png">
         </div>
         <div class="info-container">
-                <p class="title">
-                    <a class="title_link" href="https://arxiv.org/abs/2310.05873" target="_blank">Implicit Concept Removal of Diffusion Models</a>
-                </p>
-                <div class="authors"><p>Zhili Liu*, <strong>Kai Chen*</strong>, Yifan Zhang, Jianhua Han, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung, James Kwok.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">Geometric-controllable concept eraser for diffusion models!</span></em></p></b></div>
-                <div class="conference"><p><em>European Conference on Computer Vision (ECCV), 2024.</em></p></div>
-                <a class="url" href="https://arxiv.org/abs/2310.05873" target="_blank">[PDF]</a>
-                <a class="url" href="https://kaichen1998.github.io/projects/geom-erasing/" target="_blank">[Project page]</a>
-                <a class="url" href="https://www.techbeat.net/talk-info?id=847" target="_blank">[Talk]</a>
+            <p></p>
+            <p class="title">
+                <a class="title_link" href="https://arxiv.org/abs/2310.05873" target="_blank">Implicit Concept Removal of Diffusion Models</a>
+            </p>
+            <div class="authors"><p>Zhili Liu*, <strong>Kai Chen*</strong>, Yifan Zhang, Jianhua Han, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung, James Kwok.</p></div>
+            <!-- <div class="authors"><p><em><b><span style="color:red">Geometric-controllable concept eraser for diffusion models!</span></em></p></b></div> -->
+            <div class="conference"><p><em>European Conference on Computer Vision (ECCV), 2024.</em></p></div>
+            <a class="url" href="https://arxiv.org/abs/2310.05873" target="_blank">[PDF]</a>
+            <a class="url" href="https://kaichen1998.github.io/projects/geom-erasing/" target="_blank">[Webpage]</a>
+            <a class="url" href="https://www.techbeat.net/talk-info?id=847" target="_blank">[Talk]</a>
         </div>
     </div>
 
@@ -407,10 +560,34 @@
                     <a class="title_link" href="https://arxiv.org/abs/2403.13304" target="_blank">DetDiffusion: Synergizing Generative and Perceptive Models for Enhanced Data Generation and Perception</a>
                 </p>
                 <div class="authors"><p>Yibo Wang*, Ruiyuan Gao*, <strong>Kai Chen*</strong>, Kaiqiang Zhou, Yingjie Cai, Lanqing Hong, Zhenguo Li, Lihui Jiang, Dit-Yan Yeung, Qiang Xu, Kai Zhang.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">First personalized corner case generation work for object detection!</span></em></p></b></div>
+                <div class="authors"><p><em><b><span style="color:red">First work on corner case generation for object detection!</span></em></p></b></div>
                 <div class="conference"><p><em>IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2024.</em></p></div>
                 <a class="url" href="https://arxiv.org/abs/2403.13304" target="_blank">[PDF]</a>
                 <a class="url" href="https://mp.weixin.qq.com/s/Tf7IpJrMX6Jp5VHloNk5sA" target="_blank">[Wechat Post]</a>
+        </div>
+    </div>
+
+    <div class="publication-container" style="background-color: #f2e8d8;">
+        <div class="teaser-container">
+            <!-- <img style="margin-top: 10px;" class="teaser" src="./images/pub/magicdrive.png" alt="magicdrive.png"> -->
+            <video style="margin-top: 20px;" class="teaser" autoplay controls muted loop src="https://gaoruiyuan.com/magicdrive-v2/static/video/samples/sample_0099_1696x4800_f241_fps12_filter.mp4" alt="magicdrive.mp4">
+        </div>
+        
+        <div class="info-container">
+                <p class="title">
+                    <a class="title_link" href="https://arxiv.org/abs/2310.02601" target="_blank">MagicDrive: Street View Generation with Diverse 3D Geometry Control</a>
+                </p>
+                <div class="authors"><p>Ruiyuan Gao*, <strong>Kai Chen*</strong>, Enze Xie, Lanqing Hong, Zhenguo Li, Dit-Yan Yeung, Qiang Xu.</p></div>
+                <div class="authors"><p><em><b><span style="color:red">First work on geometric-controllable multi-view video generation!</span></em></p></b></div>
+                <div class="conference"><p><em>International Conference on Learning Representations (ICLR), 2024.</em></p></div>
+                <a class="url" href="https://arxiv.org/abs/2310.02601" target="_blank">[PDF]</a>
+                <a class="url" href="https://gaoruiyuan.com/magicdrive/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://www.bilibili.com/video/BV1ZT4y187WL/" target="_blank">[Talk]</a>
+                <a class="url" href="https://mp.weixin.qq.com/s/jtFdJM0eXbaZ_7oeODcLRw" target="_blank">[Wechat Post]</a>
+                <a class="url" href="https://gaoruiyuan.com/news/hdc2024/" target="_blank">[HDC 2024]</a>
+                <a class="url" href="https://coda-dataset.github.io/w-coda2024/" target="_blank">[ECCV 2024 Workshop]</a>
+                <a class="url" href="https://github.com/cure-lab/MagicDrive" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cure-lab/MagicDrive">
         </div>
     </div>
 
@@ -423,25 +600,12 @@
                     <a class="title_link" href="https://arxiv.org/abs/2312.00651" target="_blank">TrackDiffusion: Tracklet-Conditioned Video Generation via Diffusion Models</a>
                 </p>
                 <div class="authors"><p>Pengxiang Li*, <strong>Kai Chen*</strong>, Zhili Liu*, Ruiyuan Gao, Lanqing Hong, Guo Zhou, Hua Yao, Dit-Yan Yeung, Huchuan Lu, Xu Jia.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">First tracklet-conditioned world model for multi-object tracking!</span></em></p></b></div>
+                <div class="authors"><p><em><b><span style="color:red">First work on geometric-controllable video generation!</span></em></p></b></div>
                 <div class="conference"><p><em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025.</em></p></div>
-                <a class="url" href="https://arxiv.org/abs/2312.00651" target="_blank">[PDF]</a><a class="url" href="https://kaichen1998.github.io/projects/trackdiffusion/" target="_blank">[Project page]</a>
-        </div>
-    </div>
-
-    <div class="publication-container">
-        <div class="teaser-container">
-            <img class="teaser" src="./images/pub/magicdrive.png" alt="magicdrive.png">
-        </div>
-        <div class="info-container">
-                <p class="title">
-                    <a class="title_link" href="https://arxiv.org/abs/2310.02601" target="_blank">MagicDrive: Street View Generation with Diverse 3D Geometry Control</a>
-                </p>
-                <div class="authors"><p>Ruiyuan Gao*, <strong>Kai Chen*</strong>, Enze Xie, Lanqing Hong, Zhenguo Li, Dit-Yan Yeung, Qiang Xu.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">First multi-view video generation work for 3D detection!</span></em></p></b></div>
-                <div class="conference"><p><em>International Conference on Learning Representations (ICLR), 2024.</em></p></div>
-                <a class="url" href="https://arxiv.org/abs/2310.02601" target="_blank">[PDF]</a><a class="url" href="https://gaoruiyuan.com/magicdrive/" target="_blank">[Project page]</a><a class="url" href="https://mp.weixin.qq.com/s/jtFdJM0eXbaZ_7oeODcLRw" target="_blank">[Wechat Post]</a><a class="url" href="https://www.bilibili.com/video/BV1ZT4y187WL/" target="_blank">[Talk]</a>
-                <a class="url" href="https://coda-dataset.github.io/w-coda2024/" target="_blank">[ECCV 2024 Workshop]</a>
+                <a class="url" href="https://arxiv.org/abs/2312.00651" target="_blank">[PDF]</a>
+                <a class="url" href="https://kaichen1998.github.io/projects/trackdiffusion/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://github.com/pixeli99/TrackDiffusion" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pixeli99/TrackDiffusion">
         </div>
     </div>
 
@@ -450,17 +614,25 @@
             <img class="teaser" src="./images/pub/geodiffusion.png" alt="geodiffusion.png">
         </div>
         <div class="info-container">
+                <p></p>
                 <p class="title">
                     <a class="title_link" href="https://arxiv.org/abs/2306.04607" target="_blank">GeoDiffusion: Text-Prompted Geometric Control for Object Detection Data Generation</a>
                 </p>
                 <div class="authors"><p><strong>Kai Chen*</strong>, Enze Xie*, Zhe Chen, Yibo Wang, Lanqing Hong, Zhenguo Li, Dit-Yan Yeung.</p></div>
-                <div class="authors"><p><em><b><span style="color:red">First geometric-controllable work for 2D detection!</span></em></p></b></div>
+                <div class="authors"><p><em><b><span style="color:red">First work on geometric-controllable image generation!</span></em></p></b></div>
                 <div class="conference"><p><em>International Conference on Learning Representations (ICLR), 2024.</em></p></div>
-                <a class="url" href="https://arxiv.org/abs/2306.04607" target="_blank">[PDF]</a><a class="url" href="https://kaichen1998.github.io/projects/geodiffusion/" target="_blank">[Project page]</a>
+                <a class="url" href="https://arxiv.org/abs/2306.04607" target="_blank">[PDF]</a>
+                <a class="url" href="https://kaichen1998.github.io/projects/geodiffusion/" target="_blank">[Webpage]</a>
+                <a class="url" href="https://github.com/KaiChen1998/GeoDiffusion" target="_blank">[Code]</a>
+                <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KaiChen1998/GeoDiffusion">
         </div>
     </div>
 
-    <h5><b>AIGC Helpfulness - Object-level Self-supervised Learning</b></h5>
+    <!------------------------------------------------>
+    <!-- SSL -->
+    <!------------------------------------------------>
+    <br/>
+    <h5 id='ssl'><b>Representation Learning - Object-level Self-supervised Learning</b></h5>
     <div class="publication-container">
         <div class="teaser-container">
             <img class="teaser" src="./images/pub/mixedae.png" alt="mixedae.png">
@@ -487,13 +659,13 @@
                 <div class="authors"><p><strong>Kai Chen</strong>, Lanqing Hong, Hang Xu, Zhenguo Li, Dit-Yan Yeung.</p></div>
                 <div class="conference"><p><em>IEEE/CVF International Conference on Computer Vision (ICCV), 2021.</em></p></div>
                 <a class="url" href="https://arxiv.org/abs/2108.12178" target="_blank">[PDF]</a>
-                <a class="url" href="https://zhuanlan.zhihu.com/p/406649716" target="_blank">[Zhihu]</a>
+                <!-- <a class="url" href="https://zhuanlan.zhihu.com/p/406649716" target="_blank">[Zhihu]</a> -->
         </div>
     </div>
 
     <div class="publication-container">
         <div class="teaser-container">
-            <img class="teaser" src="./images/pub/SODA10M.png" alt="SODA10M.png">
+            <img style="margin-top: 20px;" class="teaser" src="./images/pub/SODA10M.png" alt="SODA10M.png">
         </div>
         <div class="info-container">
                 <p class="title">
@@ -502,7 +674,7 @@
                 <div class="authors"><p>Jianhua Han, Xiwen Liang, Hang Xu, <strong>Kai Chen</strong>, Lanqing Hong, Jiageng Mao, Chaoqiang Ye, Wei Zhang, Zhenguo Li, Xiaodan Liang, Chunjing Xu.</p></div>
                 <div class="conference"><p><em>Datasets and Benchmarks Track, Neural Information Processing Systems (NeurIPS), 2021.</em></p></div>
                 <a href="https://arxiv.org/abs/2106.11118">[PDF]</a>
-                <a href="https://soda-2d.github.io/">[Website]</a>
+                <a href="https://soda-2d.github.io/">[Webpage]</a>
                 <a href="https://slideslive.com/38969540/soda10m-a-largescale-2d-selfsemisupervised-object-detection-dataset-for-autonomous-driving?ref=recommended">[Talk]</a>
                 <a href="https://sslad2021.github.io/">[ICCV 2021 Workshop]</a>
         </div>
@@ -615,7 +787,7 @@
             <div class="name">
                 <p>Program committee/Organizer: 
                     <ul>
-                        <li> The <a href="https://coda-dataset.github.io/w-coda2024/">Workshop</a> on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving at ECCV 2024.
+                        <li> The 1st <a href="https://coda-dataset.github.io/w-coda2024/">W-CODA</a> Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving at ECCV'24.
                         </li>
                         <li> The 2nd <a href="https://sslad2022.github.io/">SSLAD</a> Workshop at ECCV 2022.
                         </li>
@@ -657,7 +829,7 @@
             <div class="name">
                 <p>HKUST Research Travel Grant</p>
             </div>
-            <div class="time">2023</div>
+            <div class="time">2023-2025</div>
         </div>
     </div>
 
@@ -747,7 +919,7 @@
     </table>
 </section>
 
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=m&d=yiQ0HZFZE6xxLisn4CXJm4uDBj9OigBd9mOjntKZg_U"></script>
+<!-- <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=m&d=yiQ0HZFZE6xxLisn4CXJm4uDBj9OigBd9mOjntKZg_U"></script> -->
 
 <footer class="footer">
     <div class="text-center">
